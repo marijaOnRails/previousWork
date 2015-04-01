@@ -1,0 +1,14 @@
+Program calculates the roots (zeroes) of the function f_n(x)=(x-1)^n using Newton Method: x_n+1=x_n - f(x_n)/f'(x_n). 
+More about Newton Method can be found at: http://en.wikipedia.org/wiki/Newton%27s_method
+
+In the second step program calculates the average value from all calculated values - analytically calculated solution:
+average = x_k+1-correctSolution/x_k-correctSolution
+
+The user enters a command-line argument, the positive number n.
+
+Compile with:
+javac NewtonMethod.java
+
+
+Execute  with:
+java NewtonMethod 5
